@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D99D24562D248C4100188AFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24552D248C4100188AFC /* UIKit.framework */; };
+		D99D24582D248C4100188AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24572D248C4100188AFC /* Foundation.framework */; };
+		D99D245A2D248C4100188AFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24592D248C4100188AFC /* CoreGraphics.framework */; };
+		D99D24602D248C4100188AFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99D245E2D248C4100188AFC /* InfoPlist.strings */; };
+		D99D24622D248C4100188AFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D24612D248C4100188AFC /* main.m */; };
+		D99D24662D248C4100188AFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D24652D248C4100188AFC /* AppDelegate.m */; };
+		D99D24692D248C4100188AFC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D99D24672D248C4100188AFC /* MainStoryboard.storyboard */; };
+		D99D246C2D248C4100188AFC /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D246B2D248C4100188AFC /* FirstViewController.m */; };
+		D99D246E2D248C4100188AFC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D99D246D2D248C4100188AFC /* first.png */; };
+		D99D24702D248C4100188AFC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D99D246F2D248C4100188AFC /* first@2x.png */; };
+		D99D24732D248C4100188AFC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D24722D248C4100188AFC /* SecondViewController.m */; };
+		D99D24752D248C4100188AFC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D99D24742D248C4100188AFC /* second.png */; };
+		D99D24772D248C4100188AFC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D99D24762D248C4100188AFC /* second@2x.png */; };
+		D99D247F2D248C4100188AFC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D247E2D248C4100188AFC /* SenTestingKit.framework */; };
+		D99D24802D248C4100188AFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24552D248C4100188AFC /* UIKit.framework */; };
+		D99D24812D248C4100188AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24572D248C4100188AFC /* Foundation.framework */; };
+		D99D24892D248C4100188AFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99D24872D248C4100188AFC /* InfoPlist.strings */; };
+		D99D248C2D248C4100188AFC /* MedoDelirio3GSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D248B2D248C4100188AFC /* MedoDelirio3GSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D99D24822D248C4100188AFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D99D24482D248C4000188AFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D99D24502D248C4100188AFC;
+			remoteInfo = MedoDelirio3GS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D99D24512D248C4100188AFC /* MedoDelirio3GS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedoDelirio3GS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99D24552D248C4100188AFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D99D24572D248C4100188AFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D99D24592D248C4100188AFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D99D245D2D248C4100188AFC /* MedoDelirio3GS-Info.plist */ = {isa = PBXFileReference; path = "MedoDelirio3GS-Info.plist"; sourceTree = "<group>"; };
+		D99D245F2D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D99D24612D248C4100188AFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */ = {isa = PBXFileReference; path = "MedoDelirio3GS-Prefix.pch"; sourceTree = "<group>"; };
+		D99D24642D248C4100188AFC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D99D24652D248C4100188AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D99D24682D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D99D246A2D248C4100188AFC /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		D99D246B2D248C4100188AFC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D99D246D2D248C4100188AFC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		D99D246F2D248C4100188AFC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		D99D24712D248C4100188AFC /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		D99D24722D248C4100188AFC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D99D24742D248C4100188AFC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		D99D24762D248C4100188AFC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D99D247D2D248C4100188AFC /* MedoDelirio3GSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedoDelirio3GSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D99D247E2D248C4100188AFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D99D24862D248C4100188AFC /* MedoDelirio3GSTests-Info.plist */ = {isa = PBXFileReference; path = "MedoDelirio3GSTests-Info.plist"; sourceTree = "<group>"; };
+		D99D24882D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D99D248A2D248C4100188AFC /* MedoDelirio3GSTests.h */ = {isa = PBXFileReference; path = MedoDelirio3GSTests.h; sourceTree = "<group>"; };
+		D99D248B2D248C4100188AFC /* MedoDelirio3GSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedoDelirio3GSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D99D244E2D248C4100188AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D24562D248C4100188AFC /* UIKit.framework in Frameworks */,
+				D99D24582D248C4100188AFC /* Foundation.framework in Frameworks */,
+				D99D245A2D248C4100188AFC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99D24792D248C4100188AFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D247F2D248C4100188AFC /* SenTestingKit.framework in Frameworks */,
+				D99D24802D248C4100188AFC /* UIKit.framework in Frameworks */,
+				D99D24812D248C4100188AFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D99D24462D248C4000188AFC = {
+			isa = PBXGroup;
+			children = (
+				D99D245B2D248C4100188AFC /* MedoDelirio3GS */,
+				D99D24842D248C4100188AFC /* MedoDelirio3GSTests */,
+				D99D24542D248C4100188AFC /* Frameworks */,
+				D99D24522D248C4100188AFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D99D24522D248C4100188AFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D99D24512D248C4100188AFC /* MedoDelirio3GS.app */,
+				D99D247D2D248C4100188AFC /* MedoDelirio3GSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D99D24542D248C4100188AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D99D24552D248C4100188AFC /* UIKit.framework */,
+				D99D24572D248C4100188AFC /* Foundation.framework */,
+				D99D24592D248C4100188AFC /* CoreGraphics.framework */,
+				D99D247E2D248C4100188AFC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D99D245B2D248C4100188AFC /* MedoDelirio3GS */ = {
+			isa = PBXGroup;
+			children = (
+				D99D24642D248C4100188AFC /* AppDelegate.h */,
+				D99D24652D248C4100188AFC /* AppDelegate.m */,
+				D99D24672D248C4100188AFC /* MainStoryboard.storyboard */,
+				D99D246A2D248C4100188AFC /* FirstViewController.h */,
+				D99D246B2D248C4100188AFC /* FirstViewController.m */,
+				D99D246D2D248C4100188AFC /* first.png */,
+				D99D246F2D248C4100188AFC /* first@2x.png */,
+				D99D24712D248C4100188AFC /* SecondViewController.h */,
+				D99D24722D248C4100188AFC /* SecondViewController.m */,
+				D99D24742D248C4100188AFC /* second.png */,
+				D99D24762D248C4100188AFC /* second@2x.png */,
+				D99D245C2D248C4100188AFC /* Supporting Files */,
+			);
+			path = MedoDelirio3GS;
+			sourceTree = "<group>";
+		};
+		D99D245C2D248C4100188AFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D99D245D2D248C4100188AFC /* MedoDelirio3GS-Info.plist */,
+				D99D245E2D248C4100188AFC /* InfoPlist.strings */,
+				D99D24612D248C4100188AFC /* main.m */,
+				D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D99D24842D248C4100188AFC /* MedoDelirio3GSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D99D248A2D248C4100188AFC /* MedoDelirio3GSTests.h */,
+				D99D248B2D248C4100188AFC /* MedoDelirio3GSTests.m */,
+				D99D24852D248C4100188AFC /* Supporting Files */,
+			);
+			path = MedoDelirio3GSTests;
+			sourceTree = "<group>";
+		};
+		D99D24852D248C4100188AFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D99D24862D248C4100188AFC /* MedoDelirio3GSTests-Info.plist */,
+				D99D24872D248C4100188AFC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D99D24502D248C4100188AFC /* MedoDelirio3GS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99D248F2D248C4100188AFC /* Build configuration list for PBXNativeTarget "MedoDelirio3GS" */;
+			buildPhases = (
+				D99D244D2D248C4100188AFC /* Sources */,
+				D99D244E2D248C4100188AFC /* Frameworks */,
+				D99D244F2D248C4100188AFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedoDelirio3GS;
+			productName = MedoDelirio3GS;
+			productReference = D99D24512D248C4100188AFC /* MedoDelirio3GS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D99D247C2D248C4100188AFC /* MedoDelirio3GSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99D24922D248C4100188AFC /* Build configuration list for PBXNativeTarget "MedoDelirio3GSTests" */;
+			buildPhases = (
+				D99D24782D248C4100188AFC /* Sources */,
+				D99D24792D248C4100188AFC /* Frameworks */,
+				D99D247A2D248C4100188AFC /* Resources */,
+				D99D247B2D248C4100188AFC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D99D24832D248C4100188AFC /* PBXTargetDependency */,
+			);
+			name = MedoDelirio3GSTests;
+			productName = MedoDelirio3GSTests;
+			productReference = D99D247D2D248C4100188AFC /* MedoDelirio3GSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D99D24482D248C4000188AFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D99D244B2D248C4000188AFC /* Build configuration list for PBXProject "MedoDelirio3GS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D99D24462D248C4000188AFC;
+			productRefGroup = D99D24522D248C4100188AFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D99D24502D248C4100188AFC /* MedoDelirio3GS */,
+				D99D247C2D248C4100188AFC /* MedoDelirio3GSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D99D244F2D248C4100188AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D24602D248C4100188AFC /* InfoPlist.strings in Resources */,
+				D99D24692D248C4100188AFC /* MainStoryboard.storyboard in Resources */,
+				D99D246E2D248C4100188AFC /* first.png in Resources */,
+				D99D24702D248C4100188AFC /* first@2x.png in Resources */,
+				D99D24752D248C4100188AFC /* second.png in Resources */,
+				D99D24772D248C4100188AFC /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99D247A2D248C4100188AFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D24892D248C4100188AFC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D99D247B2D248C4100188AFC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D99D244D2D248C4100188AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D24622D248C4100188AFC /* main.m in Sources */,
+				D99D24662D248C4100188AFC /* AppDelegate.m in Sources */,
+				D99D246C2D248C4100188AFC /* FirstViewController.m in Sources */,
+				D99D24732D248C4100188AFC /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D99D24782D248C4100188AFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D248C2D248C4100188AFC /* MedoDelirio3GSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D99D24832D248C4100188AFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D99D24502D248C4100188AFC /* MedoDelirio3GS */;
+			targetProxy = D99D24822D248C4100188AFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D99D245E2D248C4100188AFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99D245F2D248C4100188AFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D99D24672D248C4100188AFC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99D24682D248C4100188AFC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		D99D24872D248C4100188AFC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99D24882D248C4100188AFC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D99D248D2D248C4100188AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D99D248E2D248C4100188AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D99D24902D248C4100188AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedoDelirio3GS/MedoDelirio3GS-Prefix.pch";
+				INFOPLIST_FILE = "MedoDelirio3GS/MedoDelirio3GS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D99D24912D248C4100188AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedoDelirio3GS/MedoDelirio3GS-Prefix.pch";
+				INFOPLIST_FILE = "MedoDelirio3GS/MedoDelirio3GS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D99D24932D248C4100188AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedoDelirio3GS.app/MedoDelirio3GS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedoDelirio3GS/MedoDelirio3GS-Prefix.pch";
+				INFOPLIST_FILE = "MedoDelirio3GSTests/MedoDelirio3GSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D99D24942D248C4100188AFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MedoDelirio3GS.app/MedoDelirio3GS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MedoDelirio3GS/MedoDelirio3GS-Prefix.pch";
+				INFOPLIST_FILE = "MedoDelirio3GSTests/MedoDelirio3GSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D99D244B2D248C4000188AFC /* Build configuration list for PBXProject "MedoDelirio3GS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99D248D2D248C4100188AFC /* Debug */,
+				D99D248E2D248C4100188AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99D248F2D248C4100188AFC /* Build configuration list for PBXNativeTarget "MedoDelirio3GS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99D24902D248C4100188AFC /* Debug */,
+				D99D24912D248C4100188AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D99D24922D248C4100188AFC /* Build configuration list for PBXNativeTarget "MedoDelirio3GSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99D24932D248C4100188AFC /* Debug */,
+				D99D24942D248C4100188AFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D99D24482D248C4000188AFC /* Project object */;
+}
