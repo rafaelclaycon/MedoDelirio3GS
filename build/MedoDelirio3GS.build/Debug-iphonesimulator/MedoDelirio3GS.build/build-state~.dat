@@ -1,0 +1,329 @@
+TMedoDelirio3GS
+v7
+r0
+t757781405.385690
+cCheck dependencies
+cProcessInfoPlistFile /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/Info.plist MedoDelirio3GS/MedoDelirio3GS-Info.plist
+cProcessPCH /var/folders/XF/XF3FEbo8HVeD4VjBRu1mSE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedoDelirio3GS-Prefix-gwhvxilelbpyikgodwxqusfmwbvb/MedoDelirio3GS-Prefix.pch.pth MedoDelirio3GS/MedoDelirio3GS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCopyStringsFile /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/InfoPlist.strings MedoDelirio3GS/en.lproj/InfoPlist.strings
+cCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/MainStoryboard.storyboard MedoDelirio3GS/en.lproj/MainStoryboard.storyboard
+cCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/first.png MedoDelirio3GS/first.png
+cCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/first@2x.png MedoDelirio3GS/first@2x.png
+cCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/second.png MedoDelirio3GS/second.png
+cCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/second@2x.png MedoDelirio3GS/second@2x.png
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/AppDelegate.h
+c00000000677454C10000000000000126
+t1735677121
+s294
+i<UIKit/UIKit.h>
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/AppDelegate.m
+c00000000677454C1000000000000084E
+t1735677121
+s2126
+i"AppDelegate.h"
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/FirstViewController.h
+c00000000677454C100000000000000F2
+t1735677121
+s242
+i<UIKit/UIKit.h>
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/FirstViewController.m
+c00000000677454C100000000000004BE
+t1735677121
+s1214
+i"FirstViewController.h"
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Prefix.pch
+c00000000677454C1000000000000014B
+t1735677121
+s331
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/SecondViewController.h
+c00000000677454C100000000000000F4
+t1735677121
+s244
+i<UIKit/UIKit.h>
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/SecondViewController.m
+c00000000677454C100000000000004C1
+t1735677121
+s1217
+i"SecondViewController.h"
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/Sound.h
+c000000006775F9DA0000000000000190
+t1735784922
+s400
+i<Foundation/Foundation.h>
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/Sound.m
+c000000006775A8AE00000000000000FC
+t1735764142
+s252
+i"Sound.h"
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/en.lproj/InfoPlist.strings
+c00000000677454C1000000000000002D
+t1735677121
+s45
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/en.lproj/MainStoryboard.storyboard
+c00000000677553DA0000000000001D66
+t1735742426
+s7526
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/first.png
+c000000004E7BF98C00000000000000FD
+t1316747660
+s253
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/first@2x.png
+c000000004E7BF98C0000000000000192
+t1316747660
+s402
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/main.m
+c000000006775F08E00000000000001EC
+t1735782542
+s492
+i<UIKit/UIKit.h>
+i"AppDelegate.h"
+i"Sound.h"
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/second.png
+c000000004E7BF98C0000000000000080
+t1316747660
+s128
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/second@2x.png
+c000000004E7BF98C0000000000000082
+t1316747660
+s130
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app.dSYM
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/Info.plist
+t1736088605
+s814
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/MedoDelirio3GS
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/PkgInfo
+t1736088605
+s8
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/InfoPlist.strings
+t1736088605
+s42
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/MainStoryboard.storyboard
+t1736088605
+s7526
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/first.png
+t1736088605
+s253
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/first@2x.png
+t1736088605
+s402
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/second.png
+t1736088605
+s128
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/second@2x.png
+t1736088605
+s130
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/FirstViewController.o
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/MedoDelirio3GS.LinkFileList
+c00000000677A9C1D00000000000002ED
+t1736088605
+s749
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/SecondViewController.o
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/Sound.o
+t2
+s0
+
+N/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/var/folders/XF/XF3FEbo8HVeD4VjBRu1mSE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedoDelirio3GS-Prefix-gwhvxilelbpyikgodwxqusfmwbvb/MedoDelirio3GS-Prefix.pch.pth
+t2
+s0
+
+NMedoDelirio3GS/MedoDelirio3GS-Info.plist
+c000000006774E9700000000000000491
+t1735715184
+s1169
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies757781405#757781405#0(0"0(0#1#0"29836824280170608#0"0#
+
+CCompileC build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/AppDelegate.o /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/FirstViewController.o /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/FirstViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/SecondViewController.o /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/SecondViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/Sound.o /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/Sound.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/Objects-normal/i386/main.o /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCopyStringsFile /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/InfoPlist.strings MedoDelirio3GS/en.lproj/InfoPlist.strings
+s757781405.325507
+e757781405.385620
+r1
+xCopyStringsFile
+x/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/InfoPlist.strings
+xMedoDelirio3GS/en.lproj/InfoPlist.strings
+lSLF07#2@46"Copy MedoDelirio3GS/en.lproj/InfoPlist.strings757781405#757781405#0(0"0(0#0#86"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/en.lproj/InfoPlist.strings8598856992#517"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary MedoDelirio3GS/en.lproj/InfoPlist.strings --outdir /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj0#
+
+CCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/MainStoryboard.storyboard MedoDelirio3GS/en.lproj/MainStoryboard.storyboard
+s757781405.326193
+e757781405.340590
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj/MainStoryboard.storyboard
+xMedoDelirio3GS/en.lproj/MainStoryboard.storyboard
+lSLF07#2@54"Copy MedoDelirio3GS/en.lproj/MainStoryboard.storyboard757781405#757781405#0(0"0(0#0#94"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/en.lproj/MainStoryboard.storyboard8595806688#541"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/en.lproj/MainStoryboard.storyboard /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/en.lproj0#
+
+CCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/first.png MedoDelirio3GS/first.png
+s757781405.326650
+e757781405.344387
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MedoDelirio3GS.app/first.png
+xMedoDelirio3GS/first.png
+lSLF07#2@29"Copy MedoDelirio3GS/first.png757781405#757781405#0(0"0(0#0#69"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/first.png8590967264#507"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/first.png /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app0#
+
+CCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/first@2x.png MedoDelirio3GS/first@2x.png
+s757781405.327089
+e757781405.341712
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MedoDelirio3GS.app/first@2x.png
+xMedoDelirio3GS/first@2x.png
+lSLF07#2@32"Copy MedoDelirio3GS/first@2x.png757781405#757781405#0(0"0(0#0#72"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/first@2x.png8609986432#510"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/first@2x.png /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app0#
+
+CCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/second.png MedoDelirio3GS/second.png
+s757781405.327510
+e757781405.345037
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MedoDelirio3GS.app/second.png
+xMedoDelirio3GS/second.png
+lSLF07#2@30"Copy MedoDelirio3GS/second.png757781405#757781405#0(0"0(0#0#70"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/second.png8594455776#508"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/second.png /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app0#
+
+CCpResource build/Debug-iphonesimulator/MedoDelirio3GS.app/second@2x.png MedoDelirio3GS/second@2x.png
+s757781405.327939
+e757781405.344508
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/MedoDelirio3GS.app/second@2x.png
+xMedoDelirio3GS/second@2x.png
+lSLF07#2@33"Copy MedoDelirio3GS/second@2x.png757781405#757781405#0(0"0(0#0#73"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/second@2x.png8607295200#511"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/second@2x.png /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app0#
+
+CGenerateDSYMFile /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app.dSYM /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/MedoDelirio3GS
+r0
+
+CLd /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/MedoDelirio3GS normal i386
+r0
+
+CProcessInfoPlistFile /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/Info.plist MedoDelirio3GS/MedoDelirio3GS-Info.plist
+s757781405.192057
+e757781405.197802
+r1
+xProcessInfoPlistFile
+x/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/Info.plist
+xMedoDelirio3GS/MedoDelirio3GS-Info.plist
+lSLF07#2@48"Process MedoDelirio3GS/MedoDelirio3GS-Info.plist757781405#757781405#0(0"0(0#0#85"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Info.plist23362728013004912#533"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MedoDelirio3GS/MedoDelirio3GS-Info.plist -genpkginfo /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app/Info.plist0#
+
+CProcessPCH /var/folders/XF/XF3FEbo8HVeD4VjBRu1mSE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedoDelirio3GS-Prefix-gwhvxilelbpyikgodwxqusfmwbvb/MedoDelirio3GS-Prefix.pch.pth MedoDelirio3GS/MedoDelirio3GS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s757781405.197904
+e757781405.325433
+r0
+xProcessPCH
+x/var/folders/XF/XF3FEbo8HVeD4VjBRu1mSE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedoDelirio3GS-Prefix-gwhvxilelbpyikgodwxqusfmwbvb/MedoDelirio3GS-Prefix.pch.pth
+xMedoDelirio3GS/MedoDelirio3GS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Prefix.pch:8:2: error: #warning "This project uses features only available in iOS SDK 5.0 and later." [-W#warnings]
+o #warning "This project uses features only available in iOS SDK 5.0 and later."
+o  ^
+o1 error generated.
+lSLF07#2@51"Precompile MedoDelirio3GS/MedoDelirio3GS-Prefix.pch757781405#757781405#0(294"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Prefix.pch:8:2: error: #warning "This project uses features only available in iOS SDK 5.0 and later." [-W#warnings] #warning "This project uses features only available in iOS SDK 5.0 and later."  ^1 error generated.1(4@78"#warning "This project uses features only available in iOS SDK 5.0 and later."757781405#0#191#0(6@85"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Prefix.pch757369921#8#2#0#0#10"#warning *0(0#0#85"/Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Prefix.pch8592261120#2071"    cd /Users/rafaelschmitt/Projects/MedoDelirio3GS    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Werror -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/MedoDelirio3GS-generated-files.hmap -I/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/MedoDelirio3GS-own-target-headers.hmap -I/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/MedoDelirio3GS-all-target-headers.hmap -iquote /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/MedoDelirio3GS-project-headers.hmap -F/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator -I/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/include -I/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/DerivedSources/i386 -I/Users/rafaelschmitt/Projects/MedoDelirio3GS/build/MedoDelirio3GS.build/Debug-iphonesimulator/MedoDelirio3GS.build/DerivedSources -c /Users/rafaelschmitt/Projects/MedoDelirio3GS/MedoDelirio3GS/MedoDelirio3GS-Prefix.pch -o /var/folders/XF/XF3FEbo8HVeD4VjBRu1mSE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MedoDelirio3GS-Prefix-gwhvxilelbpyikgodwxqusfmwbvb/MedoDelirio3GS-Prefix.pch.pth1#
+
+CTouch /Users/rafaelschmitt/Projects/MedoDelirio3GS/build/Debug-iphonesimulator/MedoDelirio3GS.app
+r0
+

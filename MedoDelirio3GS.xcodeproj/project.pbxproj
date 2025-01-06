@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9179E122D2AE0FD00916777 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D9179E102D2AE0FD00916777 /* Icon.png */; };
+		D9179E132D2AE0FD00916777 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9179E112D2AE0FD00916777 /* Icon@2x.png */; };
 		D99D24562D248C4100188AFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24552D248C4100188AFC /* UIKit.framework */; };
 		D99D24582D248C4100188AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24572D248C4100188AFC /* Foundation.framework */; };
 		D99D245A2D248C4100188AFC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24592D248C4100188AFC /* CoreGraphics.framework */; };
@@ -25,6 +27,7 @@
 		D99D24812D248C4100188AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99D24572D248C4100188AFC /* Foundation.framework */; };
 		D99D24892D248C4100188AFC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D99D24872D248C4100188AFC /* InfoPlist.strings */; };
 		D99D248C2D248C4100188AFC /* MedoDelirio3GSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D248B2D248C4100188AFC /* MedoDelirio3GSTests.m */; };
+		D9B091B82D2585F900A30F41 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B091B72D2585F900A30F41 /* Sound.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,31 +41,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9179E102D2AE0FD00916777 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D9179E112D2AE0FD00916777 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		D99D24512D248C4100188AFC /* MedoDelirio3GS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedoDelirio3GS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99D24552D248C4100188AFC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D99D24572D248C4100188AFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D99D24592D248C4100188AFC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D99D245D2D248C4100188AFC /* MedoDelirio3GS-Info.plist */ = {isa = PBXFileReference; path = "MedoDelirio3GS-Info.plist"; sourceTree = "<group>"; };
+		D99D245D2D248C4100188AFC /* MedoDelirio3GS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedoDelirio3GS-Info.plist"; sourceTree = "<group>"; };
 		D99D245F2D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D99D24612D248C4100188AFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */ = {isa = PBXFileReference; path = "MedoDelirio3GS-Prefix.pch"; sourceTree = "<group>"; };
-		D99D24642D248C4100188AFC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MedoDelirio3GS-Prefix.pch"; sourceTree = "<group>"; };
+		D99D24642D248C4100188AFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D99D24652D248C4100188AFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D99D24682D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D99D246A2D248C4100188AFC /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		D99D24682D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D99D246A2D248C4100188AFC /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		D99D246B2D248C4100188AFC /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		D99D246D2D248C4100188AFC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		D99D246F2D248C4100188AFC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		D99D24712D248C4100188AFC /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		D99D24712D248C4100188AFC /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		D99D24722D248C4100188AFC /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D99D24742D248C4100188AFC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		D99D24762D248C4100188AFC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		D99D247D2D248C4100188AFC /* MedoDelirio3GSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedoDelirio3GSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99D247E2D248C4100188AFC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D99D24862D248C4100188AFC /* MedoDelirio3GSTests-Info.plist */ = {isa = PBXFileReference; path = "MedoDelirio3GSTests-Info.plist"; sourceTree = "<group>"; };
+		D99D24862D248C4100188AFC /* MedoDelirio3GSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MedoDelirio3GSTests-Info.plist"; sourceTree = "<group>"; };
 		D99D24882D248C4100188AFC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D99D248A2D248C4100188AFC /* MedoDelirio3GSTests.h */ = {isa = PBXFileReference; path = MedoDelirio3GSTests.h; sourceTree = "<group>"; };
+		D99D248A2D248C4100188AFC /* MedoDelirio3GSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedoDelirio3GSTests.h; sourceTree = "<group>"; };
 		D99D248B2D248C4100188AFC /* MedoDelirio3GSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedoDelirio3GSTests.m; sourceTree = "<group>"; };
+		D9B091B62D2585F900A30F41 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		D9B091B72D2585F900A30F41 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9179E0F2D2AE0EC00916777 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D99D246D2D248C4100188AFC /* first.png */,
+				D99D246F2D248C4100188AFC /* first@2x.png */,
+				D99D24742D248C4100188AFC /* second.png */,
+				D99D24762D248C4100188AFC /* second@2x.png */,
+				D9179E102D2AE0FD00916777 /* Icon.png */,
+				D9179E112D2AE0FD00916777 /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D99D24462D248C4000188AFC = {
 			isa = PBXGroup;
 			children = (
@@ -122,17 +142,16 @@
 		D99D245B2D248C4100188AFC /* MedoDelirio3GS */ = {
 			isa = PBXGroup;
 			children = (
+				D9DD5AD52D2B8C4C007B0CB4 /* Views */,
+				D9179E0F2D2AE0EC00916777 /* Resources */,
+				D9B091B42D25851800A30F41 /* Models */,
 				D99D24642D248C4100188AFC /* AppDelegate.h */,
 				D99D24652D248C4100188AFC /* AppDelegate.m */,
 				D99D24672D248C4100188AFC /* MainStoryboard.storyboard */,
 				D99D246A2D248C4100188AFC /* FirstViewController.h */,
 				D99D246B2D248C4100188AFC /* FirstViewController.m */,
-				D99D246D2D248C4100188AFC /* first.png */,
-				D99D246F2D248C4100188AFC /* first@2x.png */,
 				D99D24712D248C4100188AFC /* SecondViewController.h */,
 				D99D24722D248C4100188AFC /* SecondViewController.m */,
-				D99D24742D248C4100188AFC /* second.png */,
-				D99D24762D248C4100188AFC /* second@2x.png */,
 				D99D245C2D248C4100188AFC /* Supporting Files */,
 			);
 			path = MedoDelirio3GS;
@@ -166,6 +185,22 @@
 				D99D24872D248C4100188AFC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9B091B42D25851800A30F41 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9B091B62D2585F900A30F41 /* Sound.h */,
+				D9B091B72D2585F900A30F41 /* Sound.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D9DD5AD52D2B8C4C007B0CB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +279,8 @@
 				D99D24702D248C4100188AFC /* first@2x.png in Resources */,
 				D99D24752D248C4100188AFC /* second.png in Resources */,
 				D99D24772D248C4100188AFC /* second@2x.png in Resources */,
+				D9179E122D2AE0FD00916777 /* Icon.png in Resources */,
+				D9179E132D2AE0FD00916777 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +319,7 @@
 				D99D24662D248C4100188AFC /* AppDelegate.m in Sources */,
 				D99D246C2D248C4100188AFC /* FirstViewController.m in Sources */,
 				D99D24732D248C4100188AFC /* SecondViewController.m in Sources */,
+				D9B091B82D2585F900A30F41 /* Sound.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +419,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MedoDelirio3GS/MedoDelirio3GS-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "MedoDelirio3GS/MedoDelirio3GS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -392,6 +431,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MedoDelirio3GS/MedoDelirio3GS-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				INFOPLIST_FILE = "MedoDelirio3GS/MedoDelirio3GS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -451,6 +491,7 @@
 				D99D24912D248C4100188AFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D99D24922D248C4100188AFC /* Build configuration list for PBXNativeTarget "MedoDelirio3GSTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +500,7 @@
 				D99D24942D248C4100188AFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

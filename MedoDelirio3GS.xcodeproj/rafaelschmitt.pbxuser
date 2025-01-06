@@ -1,0 +1,121 @@
+// !$*UTF8*$!
+{
+	D91DE81F2D2AD38D00A1F57C /* MedoDelirio3GS */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MedoDelirio3GS;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D91DE8322D2AD3AC00A1F57C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D91DE8332D2AD3AC00A1F57C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D91DE83E2D2AD3B700A1F57C /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "#warning \"This project uses features only available in iOS SDK 5.0 and later.\"";
+		fRef = D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 7;
+		rType = 1;
+	};
+	D91DE83F2D2AD3B700A1F57C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */;
+		name = "MedoDelirio3GS-Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 156;
+		rType = 0;
+		vrLen = 331;
+		vrLoc = 0;
+	};
+	D99D24482D248C4000188AFC /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D91DE81F2D2AD38D00A1F57C /* MedoDelirio3GS */;
+		activeTarget = D99D24502D248C4100188AFC /* MedoDelirio3GS */;
+		codeSenseManager = D91DE8332D2AD3AC00A1F57C /* Code sense */;
+		executables = (
+			D91DE81F2D2AD38D00A1F57C /* MedoDelirio3GS */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					883,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 757781389;
+			PBXWorkspaceStateSaveDate = 757781389;
+		};
+		perUserProjectItems = {
+			D91DE83E2D2AD3B700A1F57C /* XCBuildMessageTextBookmark */ = D91DE83E2D2AD3B700A1F57C /* XCBuildMessageTextBookmark */;
+			D91DE83F2D2AD3B700A1F57C /* PBXTextBookmark */ = D91DE83F2D2AD3B700A1F57C /* PBXTextBookmark */;
+		};
+		sourceControlManager = D91DE8322D2AD3AC00A1F57C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D99D24502D248C4100188AFC /* MedoDelirio3GS */ = {
+		activeExec = 0;
+		executables = (
+			D91DE81F2D2AD38D00A1F57C /* MedoDelirio3GS */,
+		);
+	};
+	D99D24632D248C4100188AFC /* MedoDelirio3GS-Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 370}}";
+			sepNavSelRange = "{156, 0}";
+			sepNavVisRange = "{0, 331}";
+		};
+	};
+	D99D247C2D248C4100188AFC /* MedoDelirio3GSTests */ = {
+		activeExec = 0;
+	};
+}
