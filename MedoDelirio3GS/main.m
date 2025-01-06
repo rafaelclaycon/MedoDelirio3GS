@@ -14,9 +14,6 @@
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
-        Sound *sound = [Sound new];
-        sound->title = @"Eu preciso de uma pastilha";
-        [sound printGreeting];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

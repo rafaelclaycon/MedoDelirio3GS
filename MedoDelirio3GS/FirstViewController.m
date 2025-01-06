@@ -7,6 +7,7 @@
 //
 
 #import "FirstViewController.h"
+#import "MD3APIClient.h"
 
 @implementation FirstViewController
 
@@ -21,7 +22,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    [[MD3APIClient sharedClient] getSounds:^(NSArray *data, NSError *error) {
+        if (error) {
+            NSLog(@"Error fetching data: %@", error);
+            return;
+        }
+        
+        NSLog(@"Fetched data: %@", data);
+    }];
 }
 
 - (void)viewDidUnload
